@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Amazing online electronic shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="container">
+            <div id="left">
+                <h1 id="webname">UNI-ON</h1>
+            </div>
+
+            <div class="right">
+                <select name="option" id="explore">
+                    <option value="Explore" selected>Explore</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Egypt">Egypt</option>
+                </select>
+                <button id="login">Log In</button>
+            </div>
+
+        </div>
+
+        <section id="front">
+            <h1 class="f-primary">Amazing-Online-Electronic Shop</h1>
+            <p>Over 4.5 million+ high-quality computers, computer systems, motherboards, TVs, printers, and mobile products in our shop. You are most welcome anytime and everywhere.</p>
+
+            <div id="search">
+                <input type="text" name="search" placeholder="Search for all products on UNI-ON ">
+            </div>
+        </section>
+        <div class="order">
+            <button class="btn">Order Now</button>
+        </div>
+        <div id="footer">
+            Read more About the <span>Content License</span>
+        </div>
+    </header>
+
+    <div class="mid">
+        <nav id="navbar">
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+            <ul>
+                <li class="item"><a href="#front">Home</a></li>
+                <li class="item"><a href="#product-container">Shops</a></li>
+                <li class="item"><a href="#client-section">Our Clients</a></li>
+                <li class="item"><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <!-- our products-->
+
+    <section id="product-container">
+        <h1 class="h-product h-our-products center">Our Products</h1>
+        <div id="products">
+            <div class="box">
+                <h3 class="f-secondary">Laptop</h3>
+                <img src="images/apple laptop.jpg" alt="Apple Laptop">
+            </div>
+            <div class="box">
+                <h3 class="f-secondary">Biometric Scanner</h3>
+                <img src="images/biometric-scanner-.jpg" alt="Biometric Scanner">
+            </div>
+            <div class="box">
+                <h3 class="f-secondary">Mouse</h3>
+                <img src="images/mouse-.png" alt="Computer Mouse">
+            </div>
+            <div class="box">
+                <h3 class="f-secondary">Printer</h3>
+                <img src="images/printer.png" alt="Printer">
+            </div>
+        </div>
+    </section>
+    <div id="load">
+        <button id="load-btn">Load More</button>
+    </div>
+
+    <section id="client-section">
+        <h1 class="h-product center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="images/social-media-5995251_640.webp" alt="">
+            </div>
+            <!--<div class="client-item">
+                    <img src="social-media-5995251_640.webp" alt="">
+                </div>
+                <div class="client-item">
+                    <img src="twitter%20logo.png" alt="">
+                </div>
+                <div class="client-item">
+                    <img src="twitter%20logo.png" alt="">
+                </div>
+                <div class="client-item">
+                    <img src="twitter%20logo.png" alt="">
+                </div>-->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-product center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Email: </label>
+                    <input type="email" name="name" id="name" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="name">Phone Number: </label>
+                    <input type="phone" name="name" id="name" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="name">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer id="copyright">
+        <div class="center">
+            Copyright &copy; www.myAmazingOnlineElectronicShop.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
